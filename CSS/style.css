@@ -1,0 +1,114 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: poppins;
+}
+
+body {
+    width: 21cm;
+    height: 29.7cm;
+    border:1px solid gray;
+}
+
+#main_container {
+    display:flex;
+    height:100%;
+}
+
+/**********************************************************************************************/
+/******************************************** SIDE ********************************************/
+
+#side {
+    max-width: fit-content;
+    padding: 0 2rem;
+    height: 100%;
+    background-color: rgb(235, 201, 188);
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.fa-solid, .fa-brands {
+    color:rgba(25, 25, 25, 0.15);
+    position: absolute;
+    left: -17.5px;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+#photo_cv {
+    width:200px;
+    margin: 2rem 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section {
+    width:100%;
+}
+
+.section:nth-child(3) p {
+    margin:0.5rem 0;
+}
+
+h4 {
+    font-size: 12px;
+    margin: 0.3rem 0;
+    position: relative;
+}
+
+.line {
+    border-bottom: solid rgba(25, 25, 25);
+    border-width: 0.05rem;
+    margin-bottom: 15px;
+}
+
+#hard_skills + .line {
+    margin:20px 0;
+    width:50%;
+    opacity:50%;
+}
+
+.section:last-of-type p {
+    margin:7.5px 0;
+}
+
+#hard_skills, #soft_skills {
+    position:relative;
+}
+
+#hard_skills img, #soft_skills img{
+    width:45px;
+    opacity:40%;
+    position:absolute;
+    right:0;
+}
+
+/**********************************************************************************************/
+/******************************************** MAIN ********************************************/
+
+#main {
+    padding:2rem;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    word-spacing: 5px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
